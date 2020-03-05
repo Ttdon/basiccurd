@@ -1,7 +1,7 @@
 
 const express=require("express");
 const mongoose=require("mongoose");
-const user=require("../models/user");
+const user=require("../models/user");//call user schema
 const bcrypt=require("bcryptjs");
 const objectid=require("mongoose").Types.objectId;
 
